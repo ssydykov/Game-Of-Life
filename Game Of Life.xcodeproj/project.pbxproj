@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5439CA631F00AC10003915B4 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5439CA621F00AC10003915B4 /* Grid.swift */; };
+		5439CA651F00BD32003915B4 /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5439CA641F00BD32003915B4 /* Creature.swift */; };
 		548FA7A11EFDC09B00B1FF8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548FA7A01EFDC09B00B1FF8C /* AppDelegate.swift */; };
 		548FA7A31EFDC09B00B1FF8C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 548FA7A21EFDC09B00B1FF8C /* GameScene.sks */; };
 		548FA7A51EFDC09B00B1FF8C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 548FA7A41EFDC09B00B1FF8C /* Actions.sks */; };
@@ -15,9 +17,12 @@
 		548FA7AC1EFDC09B00B1FF8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548FA7AA1EFDC09B00B1FF8C /* Main.storyboard */; };
 		548FA7AE1EFDC09B00B1FF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548FA7AD1EFDC09B00B1FF8C /* Assets.xcassets */; };
 		548FA7B11EFDC09B00B1FF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548FA7AF1EFDC09B00B1FF8C /* LaunchScreen.storyboard */; };
+		548FA7B91EFDC14A00B1FF8C /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548FA7B81EFDC14A00B1FF8C /* MSButtonNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5439CA621F00AC10003915B4 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		5439CA641F00BD32003915B4 /* Creature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
 		548FA79D1EFDC09B00B1FF8C /* Game Of Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Of Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		548FA7A01EFDC09B00B1FF8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		548FA7A21EFDC09B00B1FF8C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +33,7 @@
 		548FA7AD1EFDC09B00B1FF8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		548FA7B01EFDC09B00B1FF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		548FA7B21EFDC09B00B1FF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		548FA7B81EFDC14A00B1FF8C /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,10 @@
 			children = (
 				548FA7A01EFDC09B00B1FF8C /* AppDelegate.swift */,
 				548FA7A21EFDC09B00B1FF8C /* GameScene.sks */,
+				5439CA621F00AC10003915B4 /* Grid.swift */,
+				5439CA641F00BD32003915B4 /* Creature.swift */,
 				548FA7A41EFDC09B00B1FF8C /* Actions.sks */,
+				548FA7B81EFDC14A00B1FF8C /* MSButtonNode.swift */,
 				548FA7A61EFDC09B00B1FF8C /* GameScene.swift */,
 				548FA7A81EFDC09B00B1FF8C /* GameViewController.swift */,
 				548FA7AA1EFDC09B00B1FF8C /* Main.storyboard */,
@@ -150,7 +159,10 @@
 			files = (
 				548FA7A71EFDC09B00B1FF8C /* GameScene.swift in Sources */,
 				548FA7A91EFDC09B00B1FF8C /* GameViewController.swift in Sources */,
+				5439CA651F00BD32003915B4 /* Creature.swift in Sources */,
 				548FA7A11EFDC09B00B1FF8C /* AppDelegate.swift in Sources */,
+				5439CA631F00AC10003915B4 /* Grid.swift in Sources */,
+				548FA7B91EFDC14A00B1FF8C /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +326,7 @@
 				548FA7B71EFDC09B00B1FF8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
